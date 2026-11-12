@@ -5,7 +5,7 @@ AI-enhanced data mining on a simulated financial/business dataset: GenAI dataset
 ## Members and Roles
 | Member | Role | Model(s) |
 |---|---|---|
-| Member 1 | Repo lead, shared pipeline, model comparison | Decision Tree, XGBoost |
+| Member 1 | Repo lead, shared pipeline, model comparison | Decision Tree (baseline), XGBoost |
 | Member 2 | GenAI dataset simulation, data dictionary | Logistic Regression |
 | Member 3 | LLM/SLM feature extraction, preprocessing | Random Forest |
 | Member 4 | EDA, feature importance interpretation | Neural Network (MLP) |
@@ -17,7 +17,6 @@ data/processed/    feature-engineered dataset (Member 3)
 notebooks/         main.ipynb (shared notebook)
 src/               shared code: data loading, split, evaluation
 models/            one notebook/script per model
-reports/           final report; figures/ for charts
 ```
 
 ## Setup
